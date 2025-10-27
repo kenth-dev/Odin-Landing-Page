@@ -4,14 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>A Landing Page</title>
-    <href rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <img src="logo.png" alt="Company Logo" />
+        <div class="logo">
+            <img src="./images/logo.png" alt="Company Logo" />
+        </div>
         <nav>
             <ul>
                 <li><a href="#shop">Shop</a></li>
+                <li><a href="#product">Products</a></li>
                 <li><a href="#about">About Us</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
@@ -19,48 +22,62 @@
     </header>
 
     <div id="shop">
-        <h2>Shop Now</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab incidunt ex ea deserunt dolore numquam consequuntur</p>
-        <button>Sign up</button>
-        <img src="shopping-image.png" alt="Shopping Image" />
+        <div class="info">
+            <h2>Shop Now</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab incidunt ex ea deserunt dolore numquam consequuntur</p>
+            <button>Sign up</button>
+        </div>
+        <img src="./images/handmade.jpg" alt="Shopping Image" />
     </div>
 
-    <div class="review">
-        <h2>Customer Reviews</h2>
+    <div id="product">
+        <h2>Products</h2>
         <div class="container">
             <div class="info">
-                <img src="./images/product-01.png" alt="product-01">
-                <div class="text">This is a type of plant. We love this one.</div>
+                <img src="./images/product-01.jpg" alt="product-01">
+                <div class="text">Product 1</div>
+                <p>Product information</p>
             </div>
+            
 
             <div class="info">
-                <img src="./images/product-02.png" alt="product-02">
-                <div class="text">This is another type of plant. Isn't it nice?</div>
+                <img src="./images/product-02.jpg" alt="product-02">
+                <div class="text">Product 2</div>
+                <p>Product information</p>
             </div>
+            
 
             <div class="info">
-                <img src="./images/product-03.png" alt="product-03">
-                <div class="text">We have so many plants. Yay plants.</div>
+                <img src="./images/product-03.jpg" alt="product-03">
+                <div class="text">Product 3</div>
+                <p>Product information</p>
             </div>
+            
 
             <div class="info">
-                <img src="./images/product-04.png" alt="product-04">
-                <div class="text">I'm running out of things to say about plants.</div>
-            </div>  
+                <img src="./images/product-04.jpg" alt="product-04">
+                <div class="text">Product 4</div>
+                <p>Product information</p>
+            </div>
+            
+            
         </div>
     </div>
 
     <div id="about">
-        <h2>About Us</h2>
-        <div class="user"> 
-            <div class="text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quia alias hic animi.</div>
-            <div class="name">-John Doe</div>
+        <h2>Kenneth The Creator</h2>
+        <div class="creator">
+            <img src="./images/profile.jpeg" alt="picture of creator">
+            <div class="text">"I made this shit brick by brick."</div>
+            <div class="name">-Someone Pogi</div>
         </div>
     </div>
 
     <div id="contact">
-        <h2>Contact</h2>
-        <p>Get in touch with us for more information.</p>
+        <div class="text">
+            <h2>Contact</h2>
+            <p>Get in touch with us for more information.</p>
+        </div>
         <button>Contact Us</button>
     </div>
 
