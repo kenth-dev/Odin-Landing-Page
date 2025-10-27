@@ -1,5 +1,5 @@
 body {
-    font-family:cursive, Arial, sans-serif;
+    font-family:inherit, Arial;
     display: flex;
     flex-direction: column;
     margin: 0;
